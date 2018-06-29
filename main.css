@@ -1,0 +1,162 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font: inherit;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+
+    
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 73px;
+    font-weight: bold;
+    background-color: none;
+    padding-top: 30px;
+    
+    
+
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 26px;
+    font-weight: normal;
+    background-color: none;
+    padding-bottom: 30px;
+
+}
+.header {
+    
+    text-align: center;
+    font-size: 29px;
+    font-weight: bold;
+}
+.header li {
+    text-decoration: none;
+    display: inline;
+
+
+    
+
+}
+.header a {
+    text-decoration: none;
+    margin: 120px;
+    color: rgba(105, 17, 17, 0.808);
+
+}
+
+.tagline {
+    text-align: left;
+    font-size: 60px;
+    font-weight: bold;
+    width: 1833px;
+    margin: 120px 0 0px 0px;
+    background-color: tan;
+    padding: 20px 20px 20px 50px;
+
+}
+
+@keyframes slider {
+
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
+.slider {
+    overflow: hidden;
+}
+.slider figure img {
+    width: 20%;
+    float: left;
+}
+.slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 20s slider infinite;
+}
+.footer {
+    height: 320px;
+    width: 800px;
+    position: absolute;
+
+}
+.box1 {
+    height: 300px;
+    width: 700px;
+    position: absolute;
+
+    
+}
+.box2 {
+    height: 150px;
+    width: 200px;
+    position: absolute;
+    margin: 70px 0 0 90px;
+
+
+
+}
+.box2 ul {
+    padding: 50px 0 0 60px;
+}
+.box2 li {
+    padding-bottom: 8px;
+}
+.box2 a {
+    text-decoration: none;
+    color: rgba(105, 17, 17, 0.808);
+    font-size: 19px;
+}
+.box3 {
+    height: 150px;
+    width: 200px;
+    position: absolute;
+    margin: 70px 0 0 310px;
+}
+.box3 ul {
+    padding: 50px 0 0 60px;
+
+    
+}
+.box3 li {
+    padding-bottom: 8px;
+}
+.box3 a {
+    text-decoration: none;
+    color: rgba(105, 17, 17, 0.808);
+    font-size: 19px;
+}

@@ -1,0 +1,84 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a, div {
+padding: 0;
+border: 0;
+margin: 0;
+font: inherit;
+font-size: 100%;
+font-family: Arial, Helvetica, sans-serif;
+list-style: none;
+}
+    
+h1 {
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+font-size: 73px;
+font-weight: bold;
+background-color: none;
+padding-top: 30px;
+}
+    
+h2 {
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+font-size: 32px;
+font-weight: bold;
+background-color: none;
+padding-bottom: 40px;
+    
+}
+
+.header {
+text-align: center;
+font-size: 29px;
+font-weight: bold;
+margin-bottom: 150px;
+}
+
+.header li {
+text-decoration: none;
+display: inline;
+}
+
+.header a {
+text-decoration: none;
+margin: 120px;
+color: rgba(105, 17, 17, 0.808);
+}
+    
+.tagline {
+text-align: left;
+font-size: 60px;
+font-weight: bold;
+width: 1833px;
+margin: 120px 0 0px 0px;
+background-color: tan;
+padding: 20px 20px 20px 50px;
+}
+
+.container h2 {
+padding-top: 35px;
+}
+
+.firstname, .lastname, .phone {
+font-size: 25px;
+text-align: center;
+padding-bottom: 25px;
+}
+
+input {
+    width: 250px;
+    height: 25px;
+}
+
+.submit {
+width: 250;
+height: 40px;
+}
+
+.container {
+width: 700px;
+height: 700px;
+background-color: rgb(233, 233, 233);
+margin: 0 auto;
+border-radius: 25px;
+}
